@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Target JavaScript version (e.g., ES6)
+    "module": "commonjs", // Use CommonJS module resolution
+    "esModuleInterop": true, // Enables default import compatibility for commonjs modules
+    "strict": true, // Enable all strict type-checking options
+    "skipLibCheck": true, // Skip type checking of all declaration files
+    "types": ["node"] // Include Node.js types to resolve the 'process' error
+  }
+}
